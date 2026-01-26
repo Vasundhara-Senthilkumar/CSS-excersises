@@ -1,0 +1,87 @@
+<div class = "container">
+<div class = "o"></div>
+<div class = "a"></div>
+<div class = "b"></div>
+<div class = "c"></div>
+</div>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .container{
+        display:flex;
+        flex-wrap: wrap;
+        
+    }
+   .a{
+      background-color: aqua;
+      height:100px;
+      width:100px;
+      flex-basis: 20%;
+      margin:5px;
+      
+
+
+    }
+    .b{
+      background-color: greenyellow;
+      height:100px;
+      width:100px;
+      flex-basis: 20%;
+      margin:5px;
+     
+
+
+    }
+    .o{
+      background-color: purple;
+      height:100px;
+      width:100px;
+      flex-basis: 20%;
+      margin:5px;
+      
+
+
+    }
+    .c{
+    background-color: burlywood;
+      height:100px;
+      width:100px;
+      flex-basis: 20%;
+      margin:5px;
+      
+
+
+    }
+    @media screen and (max-width:800px){
+        .o{
+            flex-basis: 40%;
+        }
+        .a{
+            flex-basis: 40%;
+        }
+        .b{
+            flex-basis: 40%;
+        }
+
+        .c{
+            flex-basis: 40%;
+
+        }
+    }
+    @media screen and (max-width : 600px){
+        .o{
+            flex-basis: 100%;
+        }
+        .a{
+            flex-basis: 100%;
+        }
+        .b{
+            flex-basis: 100%;
+        }
+
+        .c{
+            flex-basis: 100%;
+
+        }
+
+    }
+</style>
